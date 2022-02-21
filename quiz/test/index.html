@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Установка и обслуживание солнечных электростанций</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style.css">
+	<script src="libs/jquery-3.2.1.min.js"></script>
+	<script src="libs/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="libs/imask.js"></script>
+	<script src="libs/is.mobile.js"></script>
+	<script src="libs/jquery.form.js"></script>
+	<script src="libs/jquery.validate.js"></script>
+	
+
+</head>
+<body>
+<form class="portable-test-wrapper">
+
+	<!-- PROGRESS LINE START -->
+	<div class="progress-line">
+		<div class="main-progress">
+			<div class="main-progress__extender"></div>
+			<div class="main-progress__text">
+				Осталось ответить на 8 вопросов, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 7 вопроса, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 6 вопроса, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 5 вопроса, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 4 вопроса, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 3 вопроса, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 2 вопроса, чтобы узнать результат
+			</div>
+			<div class="main-progress__text">
+				Осталось ответить на 1 вопрос, чтобы узнать результат
+			</div>			
+			<div class="main-progress__text">
+				Тест пройден. Заполните форму, чтобы узнать результат
+			</div>			
+		</div>
+		<div class="container">
+			<div class="step">
+				<div class="step__text">Шаг <span>1</span></div>
+				<div class="step__extender"></div>
+			</div>
+		</div>
+	</div>
+	<!-- PROGRESS LINE END -->
+
+	<!-- STEPS START -->
+	<div class="container">
+		<div class="test-slider">
+		
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				С какой целью вы хотите поставить солнечную электростанцию?
+				</h3>
+				<div class="step-slide__grid">
+					<!-- ONE-ITEM START -->
+					<label for="step1-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s1-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step1" id="step1-1" value="Экономить на собственном потреблении">
+						<div class="pick-item__label">Экономить на собственном потреблении</div>
+					</label>
+					<label for="step1-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s1-2.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step1" id="step1-2" value="Заработать на зеленом тарифе">
+						<div class="pick-item__label">Заработать на зеленом тарифе</div>
+					</label>
+					<label for="step1-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s1-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step1" id="step1-3" value="Обеспечить автономность энергоснабжения">
+						<div class="pick-item__label">Обеспечить автономность энергоснабжения</div>
+					</label>						
+					<div id="next1" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->
+			
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				Знаете ли Вы как заработать на зеленом тарифе?
+				</h3>			
+				<div class="step-slide__grid">
+					<label for="step2-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s2-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step2" id="step2-1" value="Да">
+						<div class="pick-item__label">Да</div>
+					</label>
+					<label for="step2-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s2-2.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step2" id="step2-2" value="Нет">
+						<div class="pick-item__label">Нет</div>
+					</label>					
+					<label for="step2-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s2-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step2" id="step2-3" value="Нужна консультация">
+						<div class="pick-item__label">Нужна консультация</div>
+					</label>					
+					<div id="next2" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->
+			
+			
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+					Какая электростанция Вас интересует?
+				</h3>
+				<div class="step-slide__grid">
+					<label for="step3-1" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s3-1.jpg" alt="item">
+						</div>						
+						<input class="pick-item__input" type="radio" name="step3" id="step3-1" value="Сетевая">
+						<div class="pick-item__label">Сетевая</div>
+					</label>
+					<label for="step3-2" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s3-2.jpg" alt="item">
+						</div>						
+						<input class="pick-item__input" type="radio" name="step3" id="step3-2" value="Гибридная">
+						<div class="pick-item__label">Гибридная</div>
+					</label>
+					<label for="step3-3" class="pick-item">	
+						<div class="pick-item__img">
+							<img src="img/s3-3.jpg" alt="item">
+						</div>						
+						<input class="pick-item__input" type="radio" name="step3" id="step3-3" value="Автономная">
+						<div class="pick-item__label">Автономная</div>
+					</label>
+					<label for="step3-4" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s2-3.jpg" alt="item">
+						</div>						
+						<input class="pick-item__input" type="radio" name="step3" id="step3-4" value="Не знаю, нужна консультация">
+						<div class="pick-item__label">Еще не знаю. Нужна консультация</div>
+					</label>						
+					<div id="next3" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->	
+			
+			
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				Какая мощность станции необходима, кВт
+				</h3>
+				<div class="step-slide__grid">
+					<label for="step4-1" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s4-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step4" id="step4-1" value="3-5 кВт">
+						<div class="pick-item__label">3-5 кВт</div>
+					</label>
+					<label for="step4-2" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s4-2.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step4" id="step4-2" value="10-15 кВт">
+						<div class="pick-item__label">10-15 кВт</div>
+					</label>	
+					<label for="step4-3" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s4-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step4" id="step4-3" value="15-20 кВт">
+						<div class="pick-item__label">15-20 кВт</div>
+					</label>
+					<label for="step4-4" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s4-4.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step4" id="step4-4" value="30 кВт">
+						<div class="pick-item__label">30 кВт</div>
+					</label>	
+					<label for="step4-5" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s4-5.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step4" id="step4-5" value="50 кВт">
+						<div class="pick-item__label">50 кВт</div>
+					</label>
+					<label for="step4-6" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s2-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step4" id="step4-6" value="Не знаю, нужна консультация">
+						<div class="pick-item__label">Еще не знаю. Нужна консультация</div>
+					</label>					
+					<div id="next4" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->	
+			
+			
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				Как хотели бы разместить станцию?
+				</h3>
+				<div class="step-slide__grid">
+					<label for="step5-1" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s5-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step5" id="step5-1" value="На земельном участке">
+						<div class="pick-item__label">На земельном участке</div>
+					</label>
+					<label for="step5-2" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s4-2.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step5" id="step5-2" value="На крыше">
+						<div class="pick-item__label">На крыше</div>
+					</label>	
+					<label for="step5-3" class="pick-item">		
+						<div class="pick-item__img">
+							<img src="img/s5-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step5" id="step5-3" value="Совмещенный вариант">
+						<div class="pick-item__label">Совмещенный вариант</div>
+					</label>					
+					<div id="next5" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->	
+
+
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				Какое собственное потребление электроэнергии кВт/ч в месяц?
+				</h3>
+				<div class="step-slide__grid">
+					<label for="step6-1">
+						<input style="display: inline-block;margin-bottom:20px;" class="pick-item__input" type="text" name="step6" id="step6-1" value="" placeholder="Введите значение в это поле">
+					</label>
+					<label for="step6-2" class="pick-item">							
+						<input class="pick-item__input" type="radio" name="step6" id="step6-2" value="Затрудняюсь ответить">
+						<div class="pick-item__label">Затрудняюсь ответить <br>(пропустить вопрос)</div>
+					</label>						
+					<div id="next6" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->			
+			
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				Укажите местоположение дома
+				</h3>
+				<div class="step-slide__grid">
+					<label for="step7-1">
+						<input style="display: inline-block;margin-bottom:20px;" class="pick-item__input" type="text" name="step7" id="step7-1" value="" placeholder="Введите область и район">
+					</label>
+					<label for="step7-2" class="pick-item">							
+						<input class="pick-item__input" type="radio" name="step7" id="step7-2" value="Пропустить вопрос">
+						<div class="pick-item__label">Пропустить вопрос</div>
+					</label>					
+					<div id="next7" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->		
+			
+			
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+					Когда планируете ставить солнечную электростанцию?
+				</h3>
+				<div class="step-slide__grid">
+					<label for="step8-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s8-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step8" id="step8-1" value="В ближайшее время">
+						<div class="pick-item__label">В ближайшее время</div>
+					</label>
+					<label for="step8-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s8-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step8" id="step8-2" value="В течении года">
+						<div class="pick-item__label">В течении года</div>
+					</label>		
+					<label for="step8-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/s8-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step8" id="step8-3" value="Пока только собираю информацию">
+						<div class="pick-item__label">Пока только собираю информацию</div>
+					</label>					
+					<div id="next8" class="btn-next-container"></div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->				
+
+			
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<h3 class="step-slide__title">
+				Спасибо за ответы. Получите результат расчета, оставив свой контактный телефон
+				</h3>
+				<div class="step-slide__grid">
+					<div class="last-step-form">
+						<label class="last-step-form__label">Введите свой контактный телефон, на него Вам позвонит менеджер и сообщит результат расчета:</label>
+						<input name="name" id="pole" class="last-step-form__input2" placeholder="Ваше имя">
+						<input type="tel" type="number" id="pole2" name="phone" class="last-step-form__input" required="" placeholder="Ваш контактный телефон" data-inputmask-mask="(999) 999-99-99">						
+						<button class="last-step-form__button btn-shine"><span>получить результат расчета</span></button>
+						<div class="last-step-form__accept">Нажимая на кнопку, вы принимаете <a href="privacy.html" target="_blank">Положение и Согласие</a> на обработку персональных данных.</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- ONE-STEP END -->			
+			
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+			</div>
+			<!-- ONE-STEP END -->
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<div class="after-submit">
+					<div class="container">
+						<h4 class="after-submit__title">Заявка отправлена</h4>
+
+						<h5 class="after-submit__descr">Спасибо. Менеджер компании перезвонит Вам в ближайшее время.</h5>
+						<!-- <a href="https://energo-sun.com.ua/" target="blank"><div class="site">Перейти на наш основной сайт</div></a>		-->	
+					</div>
+				</div>
+			</div>
+			<!-- ONE-STEP END -->	
+			
+		</div>
+	</div>
+	<!-- STEPS END -->
+
+</form>
+
+<script src="main.js"></script>
+
+
+<script type="text/javascript">
+
+
+const elements = document.querySelectorAll('form input[name="phone"]');
+
+function maskall(params){
+  for(let index = 0; index < elements.length; index++){
+    const element = elements[index];
+
+
+
+let patternMask = IMask(element, {
+  mask: '{+38} (\\0YX) 000-00-00',
+
+  lazy: false,  // make placeholder always visible
+  placeholderChar: '_',     // defaults to '_'
+  blocks: {
+    YX: {
+      mask: IMask.MaskedEnum,
+      enum: ['67', '96', '97', '98','50','66','95','99','63','73','93']
+    }
+}
+});
+
+}
+}
+maskall();
+
+
+</script>
+
+<script type="text/javascript">
+var input = document.getElementById('pole');
+
+input.oninput = () => {
+  if(input.value.charAt(0) === ' ') {
+    input.value = '';
+  }
+}
+
+
+var input2 = document.getElementById('pole2');
+
+input2.oninput = () => {
+  if(input2.value.charAt(0) === ' ') {
+    input2.value = '';
+  }
+} 
+</script>
+
+</body>
+</html>
