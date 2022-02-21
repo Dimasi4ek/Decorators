@@ -64,6 +64,17 @@ $(".variant .but.bt2").click(function(e){
   $("body").css("overflow","hidden");
 });
 
+$(".variant .but.bt1").click(function(e){ 
+  $but = $(this); 
+  $name = $but.parent().find(".name strong").text();
+  $('.mess_pop .up4 .vid').val($name); 
+
+  $('.mess_pop .up').hide();
+  $('.mess_pop .up4').show();
+  $('.mess_pop').fadeIn(100);
+  $('.fon_black').fadeIn(100);
+  $("body").css("overflow","hidden");
+});
 
 $(".footer .politic").click(function(e){ 
   $('.politika').fadeIn(100);
@@ -319,7 +330,24 @@ $(".mess_pop .up3 form").submit(function(e) {// обрабатываем отп�
 }
 });
 
-
+$(".mess_pop .up4 form").submit(function(e) {// обрабатываем отправку формы 
+    e.preventDefault();
+    $phone  = $(this).find("input[name='tell']").val();
+    let tell = $phone;
+    if(tell.indexOf("_") == "-1"){
+    $.ajax({
+        url: 'send.php', 
+        data: $('.mess_pop .up4 form').serialize(),
+        type: 'POST',
+        success: function(res){
+            $(':input','.mess_pop .up4 form')
+      .not(':button, :submit, :reset, :hidden')
+      .val('') 
+             location.replace("./thanks.php");    
+        },
+    })
+}
+});
 
 
 });
