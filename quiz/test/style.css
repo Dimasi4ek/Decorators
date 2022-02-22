@@ -103,7 +103,7 @@ input.error { border-color: red !important; }
 label.error { display: none !important; }
 
 .btn-next { display: block; width: 100%; padding: 19px 0; border-radius: 90px; background: #DADADA; margin-left: 15px; font-size: 18px; font-family: 'Gilroy Bold';  color: #A7A7A7; text-align: center; text-transform: uppercase; -webkit-transition: .3s; transition: .3s; position: relative; overflow: hidden; }
-.btn-next:hover { background: #15bf7b; }
+.btn-next:hover { background: #fed34f; }
 .btn-next span { font-weight: inherit; position: relative; z-index: 2; }
 .btn-next span:after { content: ""; display: inline-block; width: 15px; height: 17px; background: url("img/next-row.svg") no-repeat center; margin-left: 10px; }
 .btn-next_active {  background: linear-gradient(to top, #ffc107, #fed149);
