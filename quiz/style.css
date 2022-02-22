@@ -85,7 +85,7 @@ html, body {
 
 body {
 	min-height: 100vh;
-	background-image: url("img/main-bg.jpg");
+	/*background-image: url("img/main-bg.jpg");*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -105,7 +105,8 @@ h1 {
 	
 }
 h1 span {
-	color: #049970;
+	color: #000000;
+    background-color: #ffc107;
 }
 
 h2 {
@@ -177,9 +178,9 @@ header {
 	display: block;
 	text-align: center;
 	padding: 30px 30px;
-	background: rgba(46,208,135,1); background: -moz-linear-gradient(top, rgba(46,208,135,1) 0%, rgba(6,181,117,1) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(46,208,135,1)), color-stop(100%, rgba(6,181,117,1))); background: -webkit-linear-gradient(top, rgba(46,208,135,1) 0%, rgba(6,181,117,1) 100%); background: -o-linear-gradient(top, rgba(46,208,135,1) 0%, rgba(6,181,117,1) 100%); background: -ms-linear-gradient(top, rgba(46,208,135,1) 0%, rgba(6,181,117,1) 100%); background: linear-gradient(to bottom, rgba(46,208,135,1) 0%, rgba(6,181,117,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ed087', endColorstr='#06b575', GradientType=0 );
+	background: linear-gradient(to top, #ffc107, #fed149);
 	border-radius: 90px;
-	border-bottom: 2px solid #21ad45;
+	border-bottom: 2px solid #a7800b;
 	position: relative;
 }
 
@@ -211,12 +212,12 @@ animation-iteration-count: infinite;
 transform: rotate(45deg);
 }
 .main-btn:hover {
-	background: #23c881;
+	background: #FED34F;
 }
 
 .main-btn span {
 	display: block;
-	color: #fff;
+	color: #000;
 }
 .main-btn .main-naim {
 	display: inline-block;
@@ -327,6 +328,14 @@ body.fixed {
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+.number-color{
+	font-size:  25px;
+	background-color: #ffc107;
+	border-radius:  30px;
+	width: 100px;
+	text-align:  center;
 }
 
 .main-btn{

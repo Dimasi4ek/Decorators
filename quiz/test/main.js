@@ -1,4 +1,4 @@
-																$(document).ready(function() {
+$(document).ready(function() {
 
 	$('.step-slide__title').each(function(index, el) {
 		$(el).prepend('<div class="step-slide__title-counter">' + (index + 1) + '</div>');
