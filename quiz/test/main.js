@@ -103,12 +103,12 @@ if(tell.indexOf("_") == "-1"){
 					success: function() {
 						testSlider.goToSlide( $('.step-slide').length - 1 );
 						$('.header-line').slideUp(300);
-						$('.progress-line').slideUp(300);
-	                                        dataLayer.push({'event': 'formsend'});
+						$('.progress-line').slideUp(300);   
 					}
 				});
 
-}else{
+}
+else{
 	console.log("ошибка");
 }
 
@@ -121,3 +121,4 @@ if(tell.indexOf("_") == "-1"){
 
 	});
 });
+// dataLayer.push({'event': 'formsend'});
