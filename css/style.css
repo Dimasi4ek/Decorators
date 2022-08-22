@@ -445,15 +445,15 @@ a:hover{
     padding-left: 90px;
 }
 .block_top .pl.n1{
-     background: url(../img/time.png) no-repeat center left 5px / 40px,
+     background: url(../img/time.png) no-repeat center left 20px / 40px,
                  url(../img/pl.png) no-repeat center / cover;
 }
 .block_top .pl.n2{
-    background: url(../img/measure-tape.png) no-repeat center left 5px / 40px,
+    background: url(../img/measure-tape.png) no-repeat center left 20px / 40px,
     url(../img/pl.png) no-repeat center / cover;
 }
 .block_top .pl.n3{
-    background: url(../img/3d-buildings.png) no-repeat center left 5px / 40px,
+    background: url(../img/3d-buildings.png) no-repeat center left 20px / 40px,
     url(../img/pl.png) no-repeat center / cover;
 }
 
