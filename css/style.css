@@ -322,9 +322,9 @@ a:hover{
     padding-bottom: 5px;
     transition: all 0.1s ease-out;
 }
-.header .logo{
+/* .header .logo{
     width: 200px;
-}
+} */
 .header .title{
     font-size: 15px;
     line-height: 22px;
