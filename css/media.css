@@ -144,13 +144,17 @@
 
 @media screen and (max-width: 991px){
 
+.variant .cl2 {
+    background: url(../img/variant_home.png) no-repeat center bottom, url(../img/cl.jpg) no-repeat center / cover;
+    color: #fff;
+}
+
 .header .title{
 	display: none;
 }
 .block_top {
-    background: url(../img/air.png) repeat-x center top 200px, 
-   
-    url(../img/bg.jpg) no-repeat center top -30px / 991px;
+    background: url(../img/air.png) repeat-x center top 205px,
+    url(../img/bg.jpg) no-repeat center top 40px / 770px;
 }
 .block_top h1{
 	text-align: center;
@@ -498,7 +502,7 @@
 	top: 20px;
 }
 .plus_img2{
-	top: 200px;
+	top: 150x;
 }
 .plus {
     padding-bottom: 40px!important;
@@ -568,10 +572,10 @@
     background: url(../img/five3.png) no-repeat center left 20px / 60px;
 }
 .five .block.n4 .block_in{
-    background: url(../img/utp_home.png) no-repeat center left 20px / 60px;
+    background: url(../img/plus2.png) no-repeat center left 20px / 60px;
 }
 .five .block.n5 .block_in{
-    background: url(../img/plus2.png) no-repeat center left 20px / 60px;
+    background: url(../img/icon3.png) no-repeat center left 20px / 60px;
 }
 .utp2 {
     background: url(../img/utp2.png) no-repeat top 230px center / 440px, 
