@@ -693,7 +693,7 @@ to {transform:translateY(0px);}
     background-size: 15px;
 }
 .klient .text .list.n2:before{
-    background-image: url(../img/icon2.svg);
+    background-image: url(../img/ic.png);
     background-size: 20px;
 }
 .klient .text .list.n3:before{
@@ -924,6 +924,11 @@ to {transform:translateY(0px);}
 .about .block{
     max-width: 260px;
 }
+
+.text-center{
+    text-align: center;
+}
+
 .about .zag{
     color: #000;
     text-transform: uppercase;
@@ -937,7 +942,7 @@ to {transform:translateY(0px);}
     text-shadow: #ffc107 1px 1px;
     text-transform: uppercase;
     margin-bottom: 0px;
-    font-size: 65px;
+    font-size: 50px;
     font-family:Gilroy-Heavy; 
     line-height: 65px;
     letter-spacing: 2px;

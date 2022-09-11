@@ -142,7 +142,7 @@
 
 
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
 
 .variant .cl2 {
     background: url(../img/variant_home.png) no-repeat center bottom, url(../img/cl.jpg) no-repeat center / cover;
@@ -154,7 +154,7 @@
 }
 .block_top {
     background: url(../img/air.png) repeat-x center top 205px,
-    url(../img/bg.jpg) no-repeat center top 40px / 770px;
+    url(../img/bg.jpg) no-repeat center top 0px / 985px;
 }
 .block_top h1{
 	text-align: center;
