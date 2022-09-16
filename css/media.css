@@ -127,8 +127,113 @@
 
 }
 
+@media screen and (max-width: 991px){
 
+    .header .title{
+        display: none;
+    }
+    .block_top {
+        background: url(../img/air.png) repeat-x center top 200px, 
+        url(../img/tree.png) no-repeat left 0px top 100px / 150px, 
+        url(../img/bg.jpg) no-repeat center top -50px / 991px;
+    }
+    .block_top h1{
+        text-align: center;
+        margin-top:230px;
+        line-height: 42px;
+    }
+    .block_top .pl{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .servis{
+        padding-top: 40px;
+    }
+    .kak .vopros {
+        background: url(../img/vol.png) no-repeat center top;
+        height: 500px;
+        padding-top: 70px;
+        text-align: center;
+    }
+    .kak {
+        min-height: 500px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        background: url(../img/bg2.jpg) no-repeat center top / 1100px;
+    }
+    .vol .vopros {
+        background: url(../img/vol.png) no-repeat center top;
+        height: 500px;
+        padding-top: 70px;
+        text-align: center;
+    }
+    .vol {
+        min-height: 500px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        background: url(../img/bg5.jpg) no-repeat center top / 1100px;
+    }.about{
+        padding-top: 40px;
+    }
+    .plus .zag {
+        margin-top: 80px!important;
+    }
+    .about .pod_zag{
+        margin-bottom: 100px;
+    }
+    .about .circle{
+        top: -50px;
+        margin-top: 0px;
+    }
+    .plus_img {
+        left: 40%;
+        margin-left: -200px;
+        top: 80px;
+    }
+    .plus_img2 {
+        right: 40%;
+        margin-right: -200px;
+        top: 260px;
+    }
+    .utp .text {
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .utp .left .ava {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
+    .klient img{
+        border-radius: 10px;
+    }
+    .five .big{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .utp2 .text {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .utp2 .left .ava {
+        padding-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .utp2 {
+        background: url(../img/utp_tree.png) no-repeat right bottom / 300px, 
+        url(../img/utp_tree2.png) no-repeat center bottom, 
+        url(../img/utp2.png) no-repeat left bottom, 
+        url(../img/bg3.jpg) no-repeat center bottom / cover;
+    }
+    .callbackkiller {
+        left: 4%;
+        right: auto;
+        transform: scale(1);
+    }
+    }
+    
 
 
 @media screen and (max-width: 1100px){
