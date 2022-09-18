@@ -416,7 +416,6 @@ a:hover{
 .block_top{
     min-height:850px;
     background: url(../img/air.png) repeat-x center bottom,
-    url(../img/tree.png) no-repeat left bottom,
     url(../img/bg.jpg) no-repeat center bottom / cover;
     padding-top: 130px;
 }
