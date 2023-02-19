@@ -232,13 +232,13 @@ a:hover{
     width: 100%;
     max-width: 320px;
     height: 77px;
-    border-radius: 50px;
+    border-radius: 20px;
     margin: auto;
     margin-bottom: 20px;
     font-size: 13px;
     border: none;
-    background: linear-gradient(to top, #ffc107, #fed149);
-    border-bottom: 3px solid #a7800b;
+    background: linear-gradient(to top, #ffc107, #ffc000);
+    border-bottom: 5px solid #a7800b;
     cursor: pointer;
     font-family: Gilroy-Bold;
     color: #000000;
@@ -255,7 +255,7 @@ a:hover{
 }
 .block .form .but .but_fon{
     position: absolute;
-    border-radius: 50px;
+    border-radius: 20px;
     z-index: 1;
     background: #fed34f;
     width: 100%;
@@ -444,15 +444,15 @@ a:hover{
     padding-left: 90px;
 }
 .block_top .pl.n1{
-     background: url(../img/time.png) no-repeat center left 20px / 40px,
+     background: url(../img/time.png) no-repeat center left 15px / 60px,
                  url(../img/pl.png) no-repeat center / cover;
 }
 .block_top .pl.n2{
-    background: url(../img/measure-tape.png) no-repeat center left 20px / 40px,
+    background: url(../img/measure-tape.png) no-repeat center left 10px / 60px,
     url(../img/pl.png) no-repeat center / cover;
 }
 .block_top .pl.n3{
-    background: url(../img/3d-buildings.png) no-repeat center left 20px / 40px,
+    background: url(../img/3d-buildings.png) no-repeat center left 10px / 70px,
     url(../img/pl.png) no-repeat center / cover;
 }
 
