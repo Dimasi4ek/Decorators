@@ -488,7 +488,7 @@ a:hover{
 .kak .block{
     margin-bottom: 15px;
 }
-.kak .block:before{
+/* .kak .block:before{
     content: "";
     position: absolute;
     width: 34px;
@@ -503,7 +503,7 @@ a:hover{
     line-height: 34px;
     left: -10px;
     top: -10px;
-}
+} */
 .kak .block.n1:before{
     content: "1";
 }
@@ -525,11 +525,11 @@ a:hover{
 .kak .big{
     color: #fff;
     font-size: 24px;
-    font-family:Gilroy-Bold;
+    font-family: Gilroy-Bold;
     line-height: 70px;
 }
 .kak .big span{
-    font-size: 70px;
+    font-size: 55px;
 }
 .kak .vopros{
     background: url(../img/kak.png) no-repeat left top;
@@ -888,7 +888,7 @@ to {transform:translateY(0px);}
 }
 .variant .cl3 .block_in{
     min-height: 200px;
-    padding-left: 400px;
+    padding-left: 370px;
 }
 .variant .cl3 .wifi{
     margin-bottom: 0px;
