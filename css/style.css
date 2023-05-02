@@ -1,28 +1,28 @@
 
 @font-face { 
-    font-family:Gilroy-Regular; 
+    font-family: Gilroy-Regular; 
     src: url(../fonts/Gilroy-Regular.ttf);
 }
 @font-face { 
-    font-family:Gilroy-Medium; 
+    font-family: Gilroy-Medium; 
     src: url(../fonts/Gilroy-Medium.ttf);
 }
 @font-face { 
-    font-family:Gilroy-Bold; 
+    font-family: Gilroy-Bold; 
     src: url(../fonts/Gilroy-Bold.ttf);
 }
 @font-face { 
-    font-family:Gilroy-ExtraBold; 
+    font-family: Gilroy-ExtraBold; 
     src: url(../fonts/Gilroy-ExtraBold.ttf);
 }
 @font-face { 
-    font-family:Gilroy-Heavy; 
+    font-family: Gilroy-Heavy; 
     src: url(../fonts/Gilroy-Heavy.ttf);
 }
 
 
 body{ 
-	font-family:Gilroy-Regular; 
+	font-family: Gilroy-Regular; 
 	color: #111;
 }
 
@@ -32,9 +32,16 @@ input:focus { outline: none; }
 
 
 strong{
-    font-family:Gilroy-Bold;
+    font-family: Gilroy-Bold;
 }
 
+.norm-text{
+    font-family: Gilroy-Bold !important;
+}
+
+.font-22{
+    font-size: 22px !important;
+}
 
 .container {
     max-width: 1170px;
