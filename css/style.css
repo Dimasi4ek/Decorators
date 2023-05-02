@@ -183,7 +183,7 @@ a:hover{
     text-align: center;
 }
 .block:after {
-    content: "";
+    /* content: ""; */
     position: absolute;
     width: 96%;
     height: 30px;
@@ -523,13 +523,13 @@ a:hover{
     content: "6";
 }
 .kak .big{
-    color: #fff;
+    color: #000000;
     font-size: 24px;
     font-family: Gilroy-Bold;
     line-height: 70px;
 }
 .kak .big span{
-    font-size: 55px;
+    font-size: 50px;
 }
 .kak .vopros{
     background: url(../img/kak.png) no-repeat left top;
@@ -567,20 +567,32 @@ to {transform:translateY(0px);}
     z-index: 3;
     right: 40%;
     margin-right: -210px;
-    bottom: 360px;
+    bottom: 260px;
 }
 .plus{
-    padding-bottom: 100px!important;
+    padding-bottom: 100px !important;
 }
 .plus .block{
-    max-width: 300px!important;
+    max-width: 300px !important;
 }
 .plus .block .text{
-    font-size:13px!important;
+    font-size: 13px !important;
 }
+
+.pos{
+    position: relative !important;
+    right: 0 !important; 
+    top: 0 !important;
+}
+
+.mt-top{
+    margin-top: 40px !important;
+}
+
+
 .plus .name{
     font-size: 18px;
-    font-family:Gilroy-Bold;
+    font-family: Gilroy-Bold;
     margin-bottom: 5px;
 }
 .plus .img{
@@ -881,8 +893,7 @@ to {transform:translateY(0px);}
     font-size: 12px;
 }
 .variant .cl3{
-    background: url(../img/wifi.png) no-repeat center left 180px, 
-    
+    background: url(../img/wifi.png) no-repeat center left 115px, 
     url(../img/bg3.jpg) no-repeat center top / cover;
     color: #fff;
 }
@@ -929,7 +940,7 @@ to {transform:translateY(0px);}
     text-transform: uppercase;
     margin-bottom: 5px;
     font-size: 22px;
-    font-family:Gilroy-Heavy; 
+    font-family: Gilroy-Heavy; 
     margin-top: 150px;
 }
 .about .pod_zag{
@@ -938,13 +949,16 @@ to {transform:translateY(0px);}
     text-transform: uppercase;
     margin-bottom: 0px;
     font-size: 50px;
-    font-family:Gilroy-Heavy; 
+    font-family: Gilroy-Bold; 
     line-height: 65px;
     letter-spacing: 2px;
 }
+.text-size{
+    font-size: 30px !important;
+}
 .about .num{
     color: #ffc107;
-    font-family:Gilroy-Bold;
+    font-family: Gilroy-Regular;
     font-size: 28px;
     margin-bottom: 0px; 
 }
