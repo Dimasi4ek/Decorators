@@ -715,7 +715,7 @@ to {transform:translateY(0px);}
     background-size: 20px;
 }
 .klient .text .list.n3:before{
-    background-image: url(../img/icon3.svg);
+    background-image: url(../img/icon17.png);
     background-size: 20px;
 }
 .klient .text .list.n4:before{
@@ -774,13 +774,13 @@ to {transform:translateY(0px);}
 .klient  .arrow.owl_left{
     background: url(../img/arrow_left.svg) no-repeat center / 7px,
     #000;
-    margin-top:-20px;
+    margin-top:-10px;
     left: 30px;
 }
 .klient  .arrow.owl_right{
     background: url(../img/arrow_right.svg) no-repeat center / 7px,
     #000;
-    margin-top:-20px;
+    margin-top:-10px;
     right: 30px;
 }
 .klient  .arrow.owl_left:hover{
@@ -1015,18 +1015,23 @@ to {transform:translateY(0px);}
 }
 .five .block.n1:before{
     content: "1";
+    color: #000;
 }
 .five .block.n2:before{
     content: "2";
+    color: #000;
 }
 .five .block.n3:before{
     content: "3";
+    color: #000;
 }
 .five .block.n4:before{
     content: "4";
+    color: #000;
 }
 .five .block.n5:before{
     content: "5";
+    color: #000;
 }
 .five .big{
     color: #000;
