@@ -2,76 +2,62 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Механизированная покраска в Харькове и по всей Украины</title>
-    <meta name="description" content="Механизированная покраска в Харькове и по всей Украины">
-    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Безповітряне фарбування у Харкові та по всій країні | Pro Decor</title>
+    <meta name="description" content="Безповітряне фарбування у Харкові та по всій країні | Pro Decor">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:site_name" content="Energosun"> -->
-    <meta property="og:title" content="Механизированная покраска в Харькове и по всей Украины">
-    <meta property="og:description" content="С гарантией до 2ух лет">
-    <!-- <meta property="og:url" content="http://vel24.ru/"> -->
-    <meta property="og:locale" content="ru_RU">
-    <meta property="og:image" content="img/og.jpg">
+    <meta property="og:site_name" content="Pro Decor">
+    <meta property="og:title" content="Безповітряне фарбування у Харкові та по всій країні | Pro Decor">
+    <meta name="description" content="Безповітряне фарбування приміщень у Харкові та по всій країні">
+    <meta property="og:url" content="#">
+    <meta property="og:locale" content="uk_UA">
+    <!-- <meta property="og:image" content="img/og.jpg">
     <meta property="og:image:width" content="968">
-    <meta property="og:image:height" content="504">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <meta property="og:image:height" content="504"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="libs/owl.carousel/owl.carousel.css">
     <link rel="stylesheet" href="libs/owl.carousel/owl.theme.default.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/media.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
 </head>
 
 <body>
-    <style>
-        .block_top h1{
-	margin-top: 150px;
-	margin-bottom: 0px;
-}
-
-
-@media screen and (max-width: 991px){
-
-.block_top h1{
-	margin-top: 200px;
-}
-.block_top{
-	text-align: center;
-	    min-height: 450px;
-}
-
-}
-
-</style>
+    <!-- <a href="quiz/">
+        <div class="but but_quiz">
+            <div class="but_in"><img src="img/maths.svg">Узнать стоимость покраски</div>
+            <div class="but_fon"></div>
+        </div>
+    </a> -->
     <div id="sticky" class="sticky-element">
         <div class="sticky-anchor"></div>
-        <div class="sticky-content">
-            <div class="container-fluid header fixed">
+        <div class="sticky-content fixed">
+            <div class="container-fluid header">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6 col-sm-5 col-lg-6 d-flex align-items-center">
-                            <a href="index.php"><img class="logo" src="img/"></a>
+                        <div class="col-5 col-sm-5 col-lg-6 d-flex align-items-center">
+                            <a href="/">
+                                <img class="logo" src="img/logodec.png" width="40px" height="40px">
+                            </a>
                             <div class="title">
-                                Механизированная покраска в Харькове и по всей Украины
+                                Механізоване фарбування<br>
+                                у Харкові та по всій Україні
                             </div>
                         </div>
-                        <div class="col-6 col-sm-7 col-lg-6 d-flex align-items-center justify-content-end">
+                        <div class="col-7 col-sm-7 col-lg-6 d-flex align-items-center justify-content-end">
                             <div class="messenger">
-                                Связаться с нами<br>
-                                через мессенджеры:
+                                Зв'язатися з нами<br>
+                                через месенджери:
                             </div>
-                            <a href=""><img class="mess n1" src="img/m1.svg"></a>
-                            <a href=""><img class="mess n4" src="img/telega.svg"></a>
+                            <a href="https://tinyurl.com/ycyjptkb"><img class="mess n1" src="img/m1.svg"></a>
+                            <a href="https://www.instagram.com/pro.decor_com/"><img class="mess n4" src="img/insta.svg"></a>
+                            <a href="https://t.me/+380660482303"><img class="mess n4" src="img/telega.svg"></a>
                             <div class="tell">
-                                <a href="tel:0672998949">066 04 82 303</a><br>
-                                <span>Ежедневно 08:00 - 20:00</span>
+                                <a href="tel:066 04 82 303">066 04 82 303</a><br>
+                                <span>Щодня 09:00 - 20:00</span>
                             </div>
-<!--                             <div class="burger">
-                                <div class="on"></div>
-                                <div class="of"></div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -83,48 +69,48 @@
             <div class="row">
                 <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-7 offset-lg-0">
                     <h1>
-                        Спасибо за обращение
+                        Дякуємо за звернення <br>
+                        Ми з Вами зв'яжемося найближчим часом !
                     </h1>
-                    <p><strong>Мы с Вами свяжемся в ближайшее время.</strong></p>
-                </div>
-                <div class="col-12 col-lg-5">
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container-fluid footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 d-md-flex align-items-center left">
-                    <img class="logo_img" src="img/">
-                    <div>
-                        Механизированная покраска в Харькове и по всей Украины<br>
-                        <span class="politic">Политика конфиденциальности</span>
+            <!-- <div class="container-fluid footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8 d-md-flex align-items-center left">
+                            <a href="/">
+                                <img class="logo_img" src="img/logodec.png">
+                                <div>
+                            </a>
+                            Механізоване фарбування у Харкові та по всій Україні <br>
+                            <a href="privacy.html" target="blank"><u>Політика конфіденційності</u></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-md-flex align-items-center justify-content-end right">
+                        </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 d-md-flex align-items-center justify-content-end right">
-                    </a>
-                </div>
-            </div>
+            </div> -->
         </div>
+    </div>
     </div>
     <div class="politika">
         <div class="clos"></div>
-        <p class="zag">Политика конфиденциальности</p>
-        <p>Данная Политика конфиденциальности применима к данному Сайту. После просмотра данного Сайта обязательно прочитайте текст, содержащий политику конфиденциальности используемого сайта. В случае несогласия с данной Политикой конфиденциальности прекратите использование данного Сайта. Заполнив любую из форм и используя данный Сайт, Вы тем самым выражаете согласие с условиями изложенной ниже Политики конфиденциальности. Сайт охраняет конфиденциальность посетителей сайта. Персональная информация Для того чтобы оказывать вам услуги, отвечать на вопросы, выполнять ваши пожелания и требования требуется такая информация, как ваше имя и номер телефона. САЙТ может использовать указанную информацию для ответов на запросы, а также для связи с Вами по телефону с целью предоставления информации о предлагаемых САЙТ услугах и рекламных кампаниях. При поступлении от вас обращения в виде отправки любой заполненной на сайте формы САЙТ может потребоваться связаться с Вами для получения дополнительной информации, необходимой для вашего обслуживания и ответа на интересующие вопросы. САЙТ обязуется не передавать данную информацию третьим лицам без Вашего разрешения, за исключением информации, необходимой для выполнения вашего обслуживания. Со своей стороны, Вы предоставляете САЙТ право использовать любую сообщнную Вами информацию для выполнения указанных выше действий.</p>
-        <p><strong>Безопасность</strong><br>
-            Передача персональных данных в любой форме (лично, по телефону или через Интернет) всегда связана с определенным риском, поскольку не существует абсолютно надежных (защищенных от злонамеренных посягательств) систем, однако САЙТ принимает необходимые адекватные меры для минимизации риска и предотвращения несанкционированного доступа, несанкционированного использования и искажения Ваших персональных данных. Несовершеннолетние САЙТ не принимает никакой информации от лиц моложе 18 лет без согласия их родителей или законных опекунов. Кроме того, лица моложе 18 лет не могут совершать каких-либо покупок или иных юридических действий на данном Сайте без согласия родителей или законных опекунов, если это не допускается законодательством.</p>
-        <p><strong>Модификация</strong><br>
-            САЙТ имеет право изменять данную Политику конфиденциальности, изменять и корректировать условия доступа или запрещать доступ к сайту, а также изменять его содержание в любое время без предварительного уведомления.</p>
+        <p class="zag">Політика конфіденційності</p>
+        <p>Ця Політика конфіденційності застосовується до цього Сайту. Після перегляду цього Сайту обов'язково прочитайте текст, що містить політику конфіденційності сайту, що використовується. У разі незгоди з цією Політикою конфіденційності припиніть використання цього Сайту. Заповнивши будь-яку форму та використовуючи цей Сайт, Ви цим висловлюєте згоду з умовами викладеної нижче Політики конфіденційності. Сайт оберігає конфіденційність відвідувачів сайту. Персональна інформація Для того, щоб надавати вам послуги, відповідати на запитання, виконувати ваші побажання та вимоги, потрібна така інформація, як ваше ім'я та номер телефону. САЙТ може використовувати зазначену інформацію для відповідей на запити, а також для зв'язку з Вами по телефону з метою надання інформації про послуги та рекламні кампанії, що пропонуються САЙТ. При надходженні від вас звернення у вигляді відправки будь-якої заповненої на сайті форми САЙТ може знадобитися зв'язатися з Вами для отримання додаткової інформації, необхідної для вашого обслуговування та відповіді на запитання. САЙТ зобов'язується не передавати цю інформацію третім особам без Вашого дозволу, за винятком інформації, необхідної для виконання вашого обслуговування. Зі свого боку, Ви надаєте САЙТУ право використовувати будь-яку повідомлену Вами інформацію для виконання вказаних вище дій.</p>
+        <p><strong>Безпека</strong><br>
+            Передача персональних даних у будь-якій формі (особисто, по телефону або через Інтернет) завжди пов'язана з певним ризиком, оскільки не існує абсолютно надійних (захищених від зловмисних посягань) систем, проте САЙТ вживає необхідних адекватних заходів для мінімізації ризику та запобігання несанкціонованому доступу, несанкціонованому використанню та спотворення Ваших персональних даних. Неповнолітні САЙТ не приймає жодної інформації від молодших 18 років без згоди їхніх батьків або законних опікунів. Крім того, особи молодше 18 років не можуть здійснювати будь-які покупки або інші юридичні дії на даному Сайті без згоди батьків або законних опікунів, якщо це не допускається законодавством.</p>
+        <p><strong>Модифікація</strong><br>
+            САЙТ має право змінювати цю Політику конфіденційності, змінювати та коригувати умови доступу або забороняти доступ до сайту, а також змінювати його зміст у будь-який час без попереднього повідомлення.</p>
     </div>
     <div class="fon_black"></div>
     <div class="fon"></div>
     <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script type="text/javascript" src="libs/owl.carousel/owl.carousel.min.js"></script>
+    <!-- <script type="text/javascript" src="libs/owl.carousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/anchor.js"></script>
-    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"></script> -->
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
 </body>
 
 </html>
