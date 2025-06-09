@@ -7,15 +7,10 @@
 }
 .utp2 {
     background: 
-
-    
     url(../img/bg3.jpg) no-repeat center bottom / cover;
 }
 
 }
-
-
-
 
 @media screen and (max-width: 1920px){
 
@@ -24,7 +19,6 @@
 }
 .utp2 {
     background: 
-
     url(../img/utp2.png) no-repeat left bottom, 
     url(../img/bg3.jpg) no-repeat center bottom / cover;
 }
